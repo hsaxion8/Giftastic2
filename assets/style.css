@@ -1,0 +1,125 @@
+body {
+	background-color: whitesmoke;
+	background-position: 0px 400px;
+	background-size: 100%;
+}
+
+.container {
+	width: 80%;
+	position: absolute;
+	top: 580px;
+	left: 10%;
+	padding-bottom: 90px;
+}
+
+.jumbotron {
+	background: url(../images/Marvelchar.jpg) center no-repeat;
+	height: 900px;
+}
+
+.individual-gifs {
+	float: left;
+	margin: 10px;
+}
+
+.introduction { 
+    display: block;
+	background: #1468a0;
+	opacity: 0.7;
+    border-style: inset;
+    border-width:4px;
+    border-color: #0099ff;
+	color: white;
+    font-family: Jazz Let, fantasy;
+	font-weight: 300;
+	font-size: 40px;
+	letter-spacing: 1.5px;
+	text-align: center;
+    width: 100%;
+    height: 75px;
+	position: absolute;
+	top: 50%;
+    padding: 17px;
+}
+
+.input-label {
+    font-size: 20px;
+    font-weight: bolder;
+    color: #004d80;
+    font-family: Jazz Let, fantasy, serif;
+}
+
+.marvelBtn {
+	background: radial-gradient(red 25%, white 100%);
+	border-radius: 5px;
+	border: none;
+	padding: 10px 15px 10px 15px;
+	margin: 5px;
+	color: white;
+}
+
+.rating-text {
+	font-size: 20px;
+	color: black;
+	font-weight: bold;
+}
+
+
+#add-movies {
+	background: radial-gradient(red 25%, white 100%);
+	border: none;
+	color: white;
+	margin-top: 14px;
+	padding: 10px;
+	font-size: 18px;
+    font-family: Jazz Let, fantasy, serif;
+	font-weight: 700;
+	font-size: 16px;
+	letter-spacing: 1.5px;
+}
+
+#add-movies:hover {
+	background: #375D75;
+}
+
+
+
+.rating {
+    font-family: Jazz Let, fantasy, serif;
+	font-weight: 700;
+	font-size: 18px;
+	letter-spacing: 1px;
+}
+
+/* JUMBOTRON ELEMENTS */
+
+#title {
+	color: white;
+	text-align: center;
+	letter-spacing: 10px;
+	margin-top: 15%;
+	font-weight: bolder;
+	font-family: Jazz Let, fantasy, serif;
+	background: red;
+	opacity: 0.7;
+	width: 100%;
+	height: 50px;
+	font-size: 45px;
+}
+
+
+#title-button {
+	text-align: center;
+    font-family: Jazz Let, fantasy, serif;
+	font-weight: 700;
+	font-size: 16px;
+	letter-spacing: 1.5px;
+	position: relative;
+	left: 43%;
+	background: linear-gradient(to right, red 25%, white 100%);
+	border: none;
+}
+
+#title-button:hover {
+	background: red;
+}
